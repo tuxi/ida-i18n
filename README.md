@@ -3,6 +3,9 @@
 在不修改 IDA 任何二进制、不破坏代码签名、不影响功能的前提下，把 IDA Pro 9.x
 图形界面上能改的英文文本替换成中文。
 
+> **支持版本：IDA Pro 9.3**（9.0–9.3 通用，已在 9.3.251224 / macOS arm64 测试）。
+> 升级到新版本（如 9.4）的适配步骤见 [支持版本与适配新版本](#支持版本与适配新版本)。
+
 - 菜单 / 右键菜单 / 工具栏 / 动作(Action)标签
 - 菜单栏标题、对话框标题、按钮、标签、Tab、下拉框
 
@@ -100,6 +103,49 @@ import ida_i18n
 - `tools/build_dialog_dict.py` 重新生成对话框文案部分译文。
 - `tools/extract_dialog_strings.py` 从 IDA 主程序重新提取对话框候选文案
   （IDA 升级后可用，只读你本机的 IDA 可执行文件）。
+- `tools/dump_actions_reference.py` 在 IDA 里运行，重新导出 action 全表
+  （对比新旧版本、只补差异用）。
+
+## 支持版本与适配新版本
+
+插件本身**不绑定具体版本**：它只用 IDA 官方 Python API（action 系统）和
+PySide6（Qt 控件树），这两者都相当稳定。所以 IDA 升级后通常**无需改代码**，
+需要维护的只是**词典**。适配新版本（例如 9.4）的步骤：
+
+1. **先看是否仍然生效**：升级后启动 IDA，若菜单/对话框已是中文，多半直接可用；
+   重点检查 `Options` 菜单里两个开关还在不在（在 = 插件正常加载）。
+2. **导出新版本的 action 全表**（看新增/改名的动作）：
+   在 IDA 里 `File → Script file...` 运行 `tools/dump_actions_reference.py`，
+   它会覆盖 `tools/actions_reference.txt`。然后对比差异：
+
+   ```sh
+   git diff tools/actions_reference.txt
+   ```
+
+3. **提取新版本的对话框候选文案**：
+
+   ```sh
+   python3 tools/extract_dialog_strings.py \
+       --binary "/Applications/IDA Professional 9.4.app/Contents/MacOS/ida" \
+       --outdir /tmp/ida94
+   ```
+
+   （`--binary` 换成新版本的可执行文件路径；Windows 为 `ida.exe`）
+
+4. **只补差异**：把新增/改动的英文按原文补进 `ida_i18n_zh_CN.json`
+   （键写英文原文即可，`&`、`~`、结尾 `...` 会自动忽略）。
+5. **重新生成词典**（如果批量映射写在生成器里）：
+   `python3 tools/build_actions_dict.py` / `python3 tools/build_dialog_dict.py`。
+6. **实测**：重启 IDA，或 `Options → 重载汉化词典`，逐项检查。
+7. 全好后更新 README 顶部的支持版本与 `CHANGELOG.md`，提交。
+
+需要留意的少数版本相关点：
+
+- 本插件用到的 `ida_kernwin` 接口：`get_registered_actions` / `get_action_label` /
+  `update_action_label` / `attach_action_to_menu` / `register_timer`；
+- `UI_Hooks` 回调：`ready_to_run` / `updated_actions` / `widget_visible`；
+- 若新版本改了菜单栏或对话框的控件结构，只需在 `ida_i18n.py` 的
+  `translate_object()` 里补对应的控件类型即可（逻辑很短）。
 
 ## 已知限制（设计如此）
 
@@ -129,7 +175,10 @@ tools/                      词典维护工具
   build_actions_dict.py        action 译文生成器
   build_dialog_dict.py         对话框文案生成器
   extract_dialog_strings.py    从 IDA 主程序提取候选文案
+  dump_actions_reference.py    在 IDA 里导出 action 全表（升级适配用）
   actions_reference.txt        IDA 9.3 全部 action 名称 + 英文标签
+.github/ISSUE_TEMPLATE/     问题模板（漏翻 / Bug）
+CHANGELOG.md                更新日志
 LICENSE                     MIT
 ```
 

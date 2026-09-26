@@ -1,0 +1,56 @@
+name: 漏翻 / 求汉化词条
+description: 报告界面上还没有汉化的英文文本
+title: "[漏翻] "
+labels:
+  - translation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请尽量提供**英文原文**，这样可以直接补进词典。
+
+        > 提交前请先看 README 的「已知限制」：内核输出窗口、状态栏、
+        > chooser 列头（如 `Function name`）等属于无法覆盖的部分。
+  - type: input
+    id: ida_version
+    attributes:
+      label: IDA 版本
+      description: 帮助 → 关于程序，或窗口标题
+      placeholder: 例如 9.3.251224
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: 出现位置
+      description: 哪个菜单 / 对话框 / 窗口
+      placeholder: 例如 Options → 常规 对话框
+    validations:
+      required: true
+  - type: textarea
+    id: english
+    attributes:
+      label: 未翻译的英文原文
+      description: 一行一条，请照抄原文（含省略号也照抄）
+      render: text
+      placeholder: |
+        Load file
+        Produce file
+        Take database snapshot...
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: 建议译文（可选）
+      description: 一行一条，与上面的原文一一对应
+      render: text
+    validations:
+      required: false
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 截图（可选）
+      description: 直接把图片拖到输入框里即可
+    validations:
+      required: false

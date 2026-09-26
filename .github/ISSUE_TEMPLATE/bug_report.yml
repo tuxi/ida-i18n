@@ -1,0 +1,67 @@
+name: Bug 报告
+description: 插件没生效、报错，或导致界面异常
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！如果是"没生效"，请特别留意下面第 3 项的日志，能大幅加快定位。
+  - type: input
+    id: ida_version
+    attributes:
+      label: IDA 版本
+      placeholder: 例如 9.3.251224
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: 操作系统
+      placeholder: 例如 macOS 15.2 / Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: 诊断日志
+      description: |
+        把 `ida_i18n.py` 里的 `_LOG = False` 改成 `True`，重启 IDA，
+        然后粘贴 `~/.idapro/plugins/ida_i18n.log` 的内容。
+        （Windows：`%APPDATA%\Hex-Rays\IDA Pro\plugins\ida_i18n.log`）
+      render: text
+    validations:
+      required: false
+  - type: textarea
+    id: what
+    attributes:
+      label: 现象
+      description: 实际发生了什么
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 安装插件并重启 IDA
+        2. 打开某对话框
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: installed_by
+    attributes:
+      label: 安装方式
+      placeholder: install.sh / 手动复制
+    validations:
+      required: false
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 自检
+      options:
+        - label: 已确认 `~/.idapro/idapythonrc.py` 里包含加载 ida_i18n 的那几行
+        - label: 已确认 `~/.idapro/plugins/` 下有 ida_i18n.py 与 ida_i18n_zh_CN.json
+        - label: 已尝试重启 IDA（不只是重载词典）
