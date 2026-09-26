@@ -28,5 +28,6 @@
 
 ### 支持版本
 
-- IDA Pro 9.3（已在 9.3.251224 macOS arm64 上测试）；9.0–9.3 通用
-- 适配新版本的方法见 README「支持版本与适配新版本」
+- IDA Pro 9.3（9.0–9.3 通用）
+- 已验证平台：**macOS arm64**（9.3.251224）通过；**Windows / Linux 尚未验证**
+- 适配新版本的方法见 README「支持版本与适配新版本」与 CONTRIBUTING.md 的 checklist

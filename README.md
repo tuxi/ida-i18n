@@ -1,14 +1,16 @@
 # ida_i18n — IDA Pro 界面汉化插件
 
 ![IDA Pro](https://img.shields.io/badge/IDA_Pro-9.3-2f6fdb)
-![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)
+![macOS](https://img.shields.io/badge/macOS-tested-brightgreen)
+![Windows / Linux](https://img.shields.io/badge/Windows%20%7C%20Linux-untested-yellow)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![No patch](https://img.shields.io/badge/IDA%20binary-untouched-brightgreen)
 
 在不修改 IDA 任何二进制、不破坏代码签名、不影响功能的前提下，把 IDA Pro 9.x
 图形界面上能改的英文文本替换成中文。
 
-> **支持版本：IDA Pro 9.3**（9.0–9.3 通用，已在 9.3.251224 / macOS arm64 测试）。
+> **支持版本：IDA Pro 9.3**（9.0–9.3 通用）。目前**仅 macOS arm64 实测通过**
+> （9.3.251224），Windows / Linux **尚未验证**，欢迎[帮忙确认](CONTRIBUTING.md)。
 > 升级到新版本（如 9.4）的适配步骤见 [支持版本与适配新版本](#支持版本与适配新版本)。
 
 - 菜单 / 右键菜单 / 工具栏 / 动作(Action)标签
@@ -184,6 +186,7 @@ tools/                      词典维护工具
   actions_reference.txt        IDA 9.3 全部 action 名称 + 英文标签
 .github/ISSUE_TEMPLATE/     问题模板（漏翻 / Bug）
 CHANGELOG.md                更新日志
+CONTRIBUTING.md             贡献指南（含版本适配 checklist）
 LICENSE                     MIT
 ```
 
@@ -195,8 +198,12 @@ LICENSE                     MIT
 
 ## 贡献
 
-欢迎 PR 补充词典。新增词条直接加进 `ida_i18n_zh_CN.json` 即可；
-改完记得在 IDA 里 `Options → 重载汉化词典` 自测，并附一张截图更佳。
+详见 [CONTRIBUTING.md](CONTRIBUTING.md)。目前最需要两类帮助：
+
+1. **补词条（漏翻）**：把英文原文加进 `ida_i18n_zh_CN.json` 即可；
+2. **平台验证**：Windows / Linux 目前**未验证**，有环境的话帮忙确认一下。
+
+改完在 IDA 里 `Options → 重载汉化词典` 自测，附一张截图更佳。
 
 ## 免责声明
 
