@@ -6,6 +6,16 @@
 - 菜单 / 右键菜单 / 工具栏 / 动作(Action)标签
 - 菜单栏标题、对话框标题、按钮、标签、Tab、下拉框
 
+## 效果截图
+
+| 启动窗口 Quick start | 跳转菜单（原本几乎全英文） |
+|---|---|
+| ![Quick start](screenshots/01-quick-start.png) | ![Jump menu](screenshots/04-jump-menu.png) |
+
+| 主界面 + 选项菜单 | 选项对话框 |
+|---|---|
+| ![Main window](screenshots/02-main-window.png) | ![Options dialog](screenshots/03-options-dialog.png) |
+
 ## 原理
 
 | 对象 | 手段 |
@@ -114,6 +124,7 @@ ida_i18n.py                 插件本体
 ida_i18n_zh_CN.json         中英词典（约 1650 条）
 idapythonrc.py              加载入口（安装到 ~/.idapro/）
 install.sh                  一键安装脚本（macOS / Linux）
+screenshots/                效果截图
 tools/                      词典维护工具
   build_actions_dict.py        action 译文生成器
   build_dialog_dict.py         对话框文案生成器
