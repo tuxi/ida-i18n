@@ -1,0 +1,803 @@
+arm:ForceBLJump	Force BL ~j~ump
+arm:ForceBLCall	~F~orce BL call
+golang:detect_and_parse	detect and parse golang metadata
+objc:AskOptions	Objective-C Options...
+objc:ParseSegments	Reload Objective-C info
+objc:RunUntilMessageReceived	Run until message received
+objc:JumpSelector	Jump by selector...
+objc:ApplyGlobalBlocks	Re-analyze global block functions
+objc:ApplyLocalBlocks	Analyze stack-allocated blocks (entire database)
+objc:ApplyLocalBlocksEx	Analyze stack-allocated blocks (current function)
+mv:GenMicro	Generate microcode
+mv:RaiseMicro	Raise maturity level
+mv:LowerMicro	Lower maturity level
+mv:JmpXref	List cross references to...
+mv:EditBlockCmt	Edit block comment...
+mv:EditCmt	Edit comment...
+mv:InsertInsn	Insert assertion...
+mv:DeleteInsn	Delete instruction
+mv:Refresh	Refresh
+hx:HexDec	Toggle hex/dec
+hx:Hex	~H~exadecimal
+hx:Dec	~D~ecimal
+hx:Oct	Octa~l~
+hx:Char	Cha~r~
+hx:Enum	Enu~m~
+hx:InvertSign	Invert ~s~ign
+hx:BitwiseNegate	~B~itwise negate
+hx:StrucOffset	Structure offse~t~
+hx:DelContainingRecord	Rever~t~ CONTAINING_RECORD
+hx:ForceCallType	~F~orce call type
+hx:SetCallType	Set ~c~all type...
+hx:AddVarArg	Add ~v~ariadic argument
+hx:DelVarArg	Delete variadic argument
+hx:Rename	Rename...
+hx:SetType	Set t~y~pe...
+hx:ResetPtrType	Reset pointer type
+hx:Cvt2StrucPtr	Convert to struct *...
+hx:Map2OtherVar	Map to another variable...
+hx:UnmapVar	Unmap variable(s)...
+hx:NopropVar	Forbid assignment propagation
+hx:SplitVar	Split variable
+hx:UnsplitVar	Unsplit variable
+hx:RemoveArg	Remove function argument/retval
+hx:AddRemoveReturn	Remove/Add function retval
+hx:QuickRename	Quick rename...
+hx:SplitExpr	Split expression
+hx:UnsplitExpr	Unsplit expression
+hx:SplitMemAccess	Split memory access
+hx:UnsplitMemAccess	Unsplit memory access
+hx:NewStruc	Create new struct type...
+hx:SelUnionField	Select union field...
+hx:JmpStrucDef	Jump to structure definition...
+hx:JmpLocalType	~J~ump to local type...
+hx:JmpXref	Jump to ~x~ref...
+hx:JumpGlobalXref	Jump to xref globally...
+hx:JumpNewPseudo	Jump to pseudocode in a new view
+hx:EditCmt	Copy pseudocode to disassembly
+hx:EditBlockCmt	Edit block comment...
+hx:DelOrphanCmts	Delete orphan comments
+hx:GenHtml	Generate HTML...
+hx:CollapseItem	Collapse item
+hx:ExpandItem	Uncollapse item
+hx:CollapseDecls	Collapse declarations
+hx:ExpandDecls	Uncollapse declarations
+hx:MarkDecompiled	Mark as decompiled
+hx:UnmarkDecompiled	Unmark as decompiled
+hx:Copy2Asm	Copy to assembly
+hx:ToggleShowCasts	Toggle display casts
+hx:ToggleSSEIntrinsics	Toggle SSE intrinsics
+hx:GenPseudo	Generate pseudocode
+hx:AddEmptyLine	Add empty line
+hx:JumpNextParen	Jump to matching brace
+hx:CallDecomp	Show all call decompilations...
+hx:XrefDecomp	Show all xref decompilations...
+hx:StockComments	Stock comments
+hx:CreateCFile	Create ~C~ file...
+hx:SendIDB	Send ~d~atabase...
+hx:ExtractFunc	E~x~tract function...
+hx:JumpPseudo	Jump to pseudocode
+hx:AddPseudoCmt	Add pseudocode comments...
+hx:DelPseudoCmt	Delete pseudocode comments...
+hx:ResTypeInfo	~R~eset decompiler information...
+hx:ToggleSkippableInsn	~T~oggle skippable instructions...
+hx:UserDefinedCall	Decompile as cal~l~...
+picture_search:search_for_pictures	Search for pictures
+picture_search:open_picture	Open picture
+picture_search:open_in_viewer	Open picture in default viewer
+picture_search:save_picture	Save picture
+picture_search:jump_to_address	Jump to address
+xref_graph:FitInView	Fit window
+xref_graph:RunLayout	Layout calculation
+xref_graph:Search	Search nodes
+xref_graph:SelectAll	Select all
+xref_graph:InvertSelection	Invert selection
+xref_graph:ToggleMinimap	Minimap
+xref_graph:ToggleOptions	Options
+xref_graph:PinNodes	Pin node(s)
+xref_graph:AddXrefsAll	Add xrefs to/from node
+xref_graph:AddXrefsFrom	Add xrefs from node
+xref_graph:AddXrefsTo	Add xrefs to node
+xref_graph:ChooseXrefs	Add xrefs...
+xref_graph:DeleteNodes	Delete selected nodes
+xref_graph:ShowXrefGraphTo	Xrefs graph to
+xref_graph:ShowXrefGraphFrom	Xrefs graph from
+xref_graph:FuncCallXrefGraph	Function calls
+xref_graph:ShowGraphsDialog	Manage...
+goomba:run	De-obfuscate arithmetic expressions
+makesig:create_signature	Create ~S~IG file...
+uiswitch:SpecSwitchIdiom	Specify switch idiom...
+LicenseManagerAutoSwitchDecompiler	License manager...
+Edit/Plugins/SVD file management	SVD file management
+Edit/Plugins/Sample plugin	Sample plugin
+Edit/Plugins/Rust language helper	Rust language helper
+Edit/Plugins/Jump to next fixup	Jump to next fixup
+Edit/Plugins/MCP	MCP
+Edit/Plugins/Change the callee address	Change the callee address
+Edit/Plugins/Hex-Rays Decompiler Options	Hex-Rays Decompiler Options
+Edit/Plugins/Load DWARF file	Load DWARF file
+Edit/Plugins/Swift	Swift
+Edit/Plugins/Objective-C	Objective-C
+Edit/Plugins/Find functions	Find functions
+Edit/Plugins/IDA Feeds	IDA Feeds
+LicenseManager	~L~icense manager...
+LicenseManagerBorrow	~B~orrow license...
+LicenseManagerReturn	Return license
+get_revision	Get the latest revision
+logoff	~D~isconnect
+logon	~C~onnect
+open_vault_files_widget	~V~ault files
+open_local_files_widget	~L~ocal files
+open_worklists_widget	~W~orklists
+open_commits_widget	~C~ommits
+open_sites_widget	~S~ites
+open_users_widget	~U~sers
+diff_vault_local	Diff against the local file
+commit	Commit...
+scan	Scan vault
+resolve_auto	Auto resolve (if no conflicts)...
+resolve_prefer_local	Auto resolve, prefer local...
+resolve_prefer_remote	Auto resolve, prefer remote...
+resolve_interactive	Interactive merge
+resolve_use_local	Use local, discard remote...
+resolve_use_remote	Use remote, discard local...
+rebuild_tree_structure	Refresh
+sites_chooser_use_site	Use this site...
+users_chooser_set_passwd	Set password...
+checkout_for_edit	Checkout for edit
+checkout_for_add	Add to vault
+checkout_for_delete	Checkout for delete
+map_to_other_filesystem	Map to other widget...
+revert	Revert...
+revert_if_unchanged	Revert if unchanged
+open_commit_files	~D~etails...
+edit_worklist	Edit worklist...
+view_worklist	View worklist...
+open_file	Open
+migrate_file_to_worklist	Migrate to another worklist...
+checkout_for_move_rename	Checkout for move/rename...
+checkout_for_copy	Checkout for copy...
+checkout_for_cvt64	Convert IDB...
+file_history	File history
+view_revision	Open this revision
+diff_prev	Diff against previous revision
+diff_any	Diff against...
+find_in_vault	Find in vault...
+find_in_vault_next	Next search result
+find_in_vault_prev	Previous search result
+show_deleted_files	Show deleted files
+show_ignored_files	Show ignored files
+show_all_worklists	Show other users' worklists
+open_containing_folder	Open the containing folder
+options	~O~ptions
+get_revision_with_options	Get revision...
+Abort	~A~bort
+About	About program...
+AddWatch	~A~dd watch
+AddressDetails	Address details
+ToolbarsAll	Show all
+Analysis	~A~nalysis
+Anchor	~B~egin selection
+AppendFunctionTail	Append function ~t~ail...
+ApplyPatches	A~p~ply patches to input file...
+AskBinaryText	~S~equence of bytes...
+AskNextImmediate	~I~mmediate value...
+AskNextText	~T~ext...
+Assemble	~A~ssemble...
+ToolbarsNone	Hide all
+BitwiseNegate	Bit~w~ise negate
+BreakpointAdd	~A~dd breakpoint
+BreakpointDel	~D~elete breakpoint
+BreakpointDisable	Disable breakpoint
+BreakpointEdit	Edit breakpoint...
+BreakpointEnable	Enable breakpoint
+BreakpointToggle	~A~dd breakpoint
+Breakpoints	~B~reakpoint list
+BreakpointFind	~F~ind breakpoint in list
+BugReport	Report a bug or an issue...
+BuyIDA	How to buy IDA
+CLICopyAddress	Copy address to command line
+CLICopySize	Copy size to command line
+Calculate	~C~alculator...
+CenterInWindow	Center in window...
+ChangeSign	Change si~g~n
+ChangeStackPointer	Change stack ~p~ointer...
+CheckFreeUpdate	Check for free update...
+ClearMark	C~l~ear mark...
+ClearTrace	~C~lear trace
+CloseBase	~C~lose
+CloseWindow	Close window
+ColorInstruction	~C~olor instruction...
+CommandPalette	Show command palette...
+CopyStruct	Duplicate stru~c~t type
+CopyFullType	Copy full type(s)
+CreateSegment	~C~reate segment...
+CreateStructFromData	Create struct from ~s~election
+CopyFieldsToPointers	Copy field info to ~p~ointers
+Debugger	~D~ebugger window
+DeclareStructVar	Struct ~v~ar...
+DelFunction	~D~elete function
+DelHiddenRange	Delete hidden range
+DelWatch	~D~elete watch
+DumpDatabase	D~u~mp database to IDC file...
+DeleteDesktop	~D~elete desktop...
+DumpTypes	Dump ~t~ypeinfo to IDC file...
+EditCopy	Copy
+EditFunction	~E~dit function...
+EditSegment	~E~dit segment...
+EmptyStack	Empt~y~ navigation stack
+ExecTraceAdd	Add e~x~ecution trace
+Execute	Script ~f~ile...
+ExecuteLine	Script co~m~mand...
+ExportData	E~x~port data
+FindAllErrors	All error operands
+FindAllSuspicious	All void operands
+FocusCLI	Focus command line
+FocusCLI2	Focus command line
+FullScreen	Full screen
+Function	~C~reate or edit a function...
+FunctionEnd	~S~et function end
+GraphCircleLayout	Circle layout
+GraphColor	Set node color
+GraphColor1	Use predefined color 1
+GraphColor2	Use predefined color 2
+GraphDefaultColor	Set node color to default
+GraphDigraphLayout	Digraph layout
+GraphFlatView	Text view
+GraphGraphView	Graph view
+GraphGroup	Group nodes
+GraphHideAllGroups	Hide all groups
+GraphHideGroup	Hide group
+GraphLayout	Layout graph
+GraphNewProximityView	Pro~x~imity browser
+GraphOrthogonalLayout	Orthogonal layout
+GraphOverview	Graph O~v~erview
+GraphPolarLayout	Polar layout
+GraphPrint	Print graph
+GraphProximityAddGraph	Expand children
+GraphProximityAddNode	Add node by name
+GraphProximityAddNodeByAddr	Add node by address
+GraphProximityAddParents	Expand parents
+GraphProximityBack	Back to previous view
+GraphProximityDelChilds	Collapse children
+GraphProximityDelNode	Hide node
+GraphProximityDelParents	Collapse parents
+GraphProximityExpand	Expand node
+GraphProximityExpandCurrent	Expand current node
+GraphProximityFindPath	Find path
+GraphProximityReset	Reset graph
+GraphProximityView	Proximity browser
+GraphRadialLayout	Radial tree layout
+GraphSelectColor	Select nodes of this color
+GraphSetupColors	Setup colors
+GraphSetupOptions	Setup options
+GraphTreeLayout	Tree layout
+GraphUnHideAllGroups	Unhide all groups
+GraphUnHideGroup	Unhide group
+GraphUngroup	Ungroup nodes
+GraphZoom100	Zoom 100%
+GraphZoomFit	Fit window
+GraphZoomIn	Zoom in
+GraphZoomOut	Zoom out
+HelpIdcSDK	IDC SDK
+HelpCppSDK	C++ SDK
+HelpPythonSDK	Python SDK
+HelpDomainAPI	Domain API
+Hide	~H~ide
+HideAll	H~i~de all
+Homepage	IDA home page
+JumpAsk	Jump to ~a~ddress...
+JumpBinaryText	Next sequence of ~b~ytes
+JumpCode	Next ~c~ode
+JumpData	Next ~d~ata
+JumpEnter	~J~ump to operand
+JumpEnterNew	Jump in a ne~w~ window
+JumpEntryPoint	Jump to ~e~ntry point...
+JumpError	~E~rror operand
+JumpExplored	Next ~e~xplored
+JumpFileOffset	Jump to file ~o~ffset...
+JumpFunction	Jump to ~f~unction...
+JumpNextFunc	Jump to next function
+JumpPrevFunc	Jump to prev function
+JumpImmediate	Next immediate va~l~ue
+JumpName	Jump by ~n~ame...
+JumpNewDump	Jump in a new hex window
+JumpNotFunction	Not ~f~unction
+JumpOpXref	Jump to ~x~ref to operand...
+JumpPosition	Jump to ~m~arked position...
+JumpQ	Jump to ~p~roblem...
+JumpSegment	Jump to ~s~egment...
+JumpSegmentRegister	Jump to se~g~ment register...
+JumpSuspicious	Next ~v~oid
+JumpText	Next te~x~t
+JumpToIP	Jump to IP
+JumpUnknown	Next ~u~nexplored
+JumpXref	List ~c~ross references to...
+JumpXrefFrom	List ~c~ross references from...
+KillSegment	~D~elete segment...
+LoadDbgFile	~D~BG file...
+LoadDesktop	~L~oad desktop...
+LoadFile	Additional ~b~inary file...
+LoadHeaderFile	Parse ~C~ header file...
+LoadIdsFile	ID~S~/IDT file...
+LoadNewFile	~O~pen...
+LoadPdbFile	~P~DB file...
+LoadSigFile	~F~LIRT signature file...
+LoadTdsFile	~T~DS file...
+Locals	~L~ocals
+LockHighlight	Lock highlight
+LockHighlight_0	...     (unassigned)
+LockHighlight_1	...     (unassigned)
+LockHighlight_2	...     (unassigned)
+LockHighlight_3	...     (unassigned)
+LockHighlight_4	...     (unassigned)
+LockHighlight_5	...     (unassigned)
+LockHighlight_6	...     (unassigned)
+LockHighlight_7	...     (unassigned)
+MakeAlignment	Create ~a~lignment directive...
+MakeArray	Arra~y~...
+MakeStrlit	~S~tring
+MakeCode	~C~ode
+MakeComment	Enter ~c~omment...
+MakeData	~D~ata
+MakeExtraLineA	Enter ~a~nterior lines...
+MakeExtraLineB	Enter ~p~osterior lines...
+MakeFunction	~C~reate function...
+MakeName	Re~n~ame
+MakeRptCmt	Enter ~r~epeatable comment...
+MakeUnknown	~U~ndefine
+TilInspectLib	View type library contents
+TilMakeComment	Enter ~c~omment...
+TilFocusOther	Focus other widget
+TilAddType	~A~dd type...
+TilDelType	~D~elete type...
+TilDelTypeMember	De~l~ete type member
+TilAddFuncArg	Add argument
+FuncChangeCC	Change calling convention...
+EditArgloc	Edit location...
+ToggleArgloc	Show arguments location
+TilExpandStruct	Insert ~g~ap...
+TilEditType	Edit ~t~ype...
+TilEditConst	Ed~i~t enum member...
+ManualInstruction	~M~anual instruction...
+ManualOperand	Man~u~al...
+MarkPosition	Mar~k~ position...
+Modules	~M~odule list
+MoveSegment	~M~ove current segment...
+NavFlatPanDown	Pan the screen down one line
+NavFlatPanUp	Pan the screen up one line
+NavGraphJumpLinkedNeighborDown	Jump to a neighboring node (down)
+NavGraphJumpLinkedNeighborUp	Jump to a neighboring node (up)
+NewFile	New...
+NewInstance	~N~ew instance
+NextWindow	Next window
+OpAnyOffset	Offset by (~a~ny segment)...
+OpBinary	~B~inary
+OpChar	Cha~r~acter
+OpDecimal	~D~ecimal
+OpEnum	Enu~m~ member...
+OpFloat	~F~loating point
+OpHex	~H~exadecimal
+OpNumber	~N~umber (default)
+OpOctal	Octa~l~
+OpOffset	Offset (~d~ata segment)
+OpOffsetCs	Offset (~c~urrent segment)
+OpSegment	~S~egment
+OpStackVariable	Stac~k~ variable
+OpStructOffset	Offset (struc~t~)...
+OpUserOffset	Offset (~u~ser-defined)...
+OpenExports	~E~xports
+OpenFunctions	~F~unctions
+OpenImports	~I~mports
+OpenLocalTypes	Local ~t~ypes
+OpenNames	~N~ames
+OpenNotepad	Note~p~ad
+NotepadFind	~F~ind...
+NotepadFindNext	Find ~n~ext
+JumpAnywhere	Jump to...
+FunctionsToggleSync	Synchronized
+OpenProblems	Pro~b~lems
+OpenSegmentRegisters	Segment ~r~egisters
+OpenSegments	~S~egments
+OpenSelectors	Se~l~ectors
+OpenSignatures	Sign~a~tures
+OpenSourceFile	Open source ~f~ile...
+OpenStackVariables	Stac~k~ variables...
+OpenStrings	Strin~g~s
+OpenTypeLibraries	T~y~pe libraries
+OpenXrefs	Cr~o~ss references
+OpenXrefsTree	Cross references tree
+XrefTreeAddFilter	Add Filter
+XrefTreeRemoveLastFilter	Remove Last Filter
+XrefTreeCopy	Copy
+XrefTreeSyncCursor	Toggle Sync with cursor
+XrefTreeHideFunction	Hide function
+XrefTreeOpenSearch	Open Search
+XrefTreeNextMatch	Next Match
+XrefTreePrevMatch	Previous Match
+XrefTreeClearSearch	Clear Search
+OpenBookmarks	Bookmar~k~s
+Options	~G~eneral...
+OutputWindow	~O~utput window
+PatchByte	Change ~b~yte...
+PatchWord	Change ~w~ord...
+ProcessorAnalysisOptions	Processor analysis options...
+PatchedBytes	Patched bytes
+PrevWindow	Previous window
+ProcessAttach	~A~ttach to process...
+ProcessDetach	Detac~h~ from process
+ProcessExit	~T~erminate process
+ProcessGoBackwards	C~o~ntinue backwards
+ProcessPause	~P~ause process
+ProcessStart	Start process
+ProduceAsm	Create ~A~SM file...
+ProduceCallGdl	Create call ~g~raph GDL...
+ProduceDiff	Create ~D~IF file...
+ProduceExe	Create ~E~XE file...
+ProduceFuncGdl	Create ~f~low chart GDL...
+ProduceHeader	Create C ~h~eader file...
+ProduceHtml	Create ~H~TML file...
+ProduceInc	Create ~I~NC file...
+ProduceLst	Create ~L~ST file...
+ProduceMap	Create ~M~AP file...
+QuickDbgView	~Q~uick debug view
+QuickRunPlugins	~Q~uick run plugins
+QuickStart	~Q~uick start
+QuickView	~Q~uick view
+QuitIDA	E~x~it
+ReadWriteTraceAdd	Add ~r~ead/write trace
+ReanalyzeProgram	Reanalyze program
+RebaseProgram	~R~ebase program...
+RecentScripts	R~e~cent scripts
+RecentScriptsRunCurrent	Run currently selected script
+RefreshMemcfg	~R~efresh memory
+ReloadFile	~R~eload the input file
+RemoveFunctionTail	Re~m~ove function tail...
+RenameRegister	~R~ename register...
+RepeatLastPaletteCommand	Repeat last palette command
+ResetDesktop	~R~eset desktop
+ResetHiddenMessages	Reset h~i~dden messages...
+Return	Jump to p~r~evious position
+SaveBase	~S~ave
+SaveBaseAs	Sa~v~e as...
+SaveBaseSnap	Take database snapsho~t~...
+SaveDesktop	~S~ave desktop...
+SearchNext	Search next
+SegmentTranslation	Change segment ~t~ranslation...
+SelectAll	Select ~a~ll
+SelectIdentifier	Select ~i~dentifier
+SelectUnionMember	Se~l~ect union member...
+SetStrlitStyle	S~t~ring literals...
+SetColors	~C~olors...
+SetDemangledNames	De~m~angled names...
+SetDirection	Search direction
+SetDirectives	Assembler d~i~rectives...
+SetFont	~F~ont...
+FontSizeIncrease	Increase Font Size
+FontSizeDecrease	Decrease Font Size
+FontSizeReset	Reset Font Size
+SetNameType	~N~ame representation...
+SetOpType	Set operand t~y~pe...
+SetSegmentRegister	Change se~g~ment register value...
+SetSegmentRegisterDefault	Set defa~u~lt segment register value...
+SetType	Set t~y~pe...
+SetupCompiler	Compi~l~er...
+SetupData	Setup ~d~ata types...
+SetupDebugger	Deb~u~gger options...
+SetupHidden	~S~etup hidden items...
+SetupProcess	Process ~o~ptions...
+SetupTracing	Tracing ~o~ptions...
+ShowFeatureFlags	Feature Flags...
+ShortcutEditor	~S~hortcuts...
+ShowFlags	Print internal ~f~lags
+ShowHelp	~H~elp
+ToggleOnlineManual	Online help
+ShowRegisters	Print se~g~ment registers
+ShowSnapMan	Database snapshot ~m~anager...
+ShrinkStruct	Remove ga~p~...
+StackTrace	~S~tack trace
+StackView	~S~tack view
+StringC	~C~-style (0 terminated)
+StringDOS	~D~OS style ($ terminated)
+StringDelphi	~D~elphi (4 byte length)
+StringPascal1	~P~ascal style (1 byte length)
+StringPascal2	~W~ide pascal (2 byte length)
+StringUnicode	~U~nicode
+StringUnicodePascal2	Unicode pascal (2 byte length)
+StringUnicodePascal4	Unicode wide pascal (4 byte length)
+SupportForum	IDA ~s~upport forum
+SwitchDebugger	S~e~lect debugger...
+SwitchToSource	Switch to ~s~ource
+TakeSnapshot	Take ~m~emory snapshot
+ThreadRunToCursor	Run to ~c~ursor
+ThreadRunToCursorBackwards	Run to ~c~ursor (backwards)
+ThreadRunUntilReturn	Run until return
+ThreadSetCurrentIp	Set IP
+ThreadStepInto	Step ~i~nto
+ThreadStepIntoBackwards	Step ~i~nto (backwards)
+ThreadStepOver	Step o~v~er
+ThreadStepOverBackwards	Step o~v~er (backwards)
+Threads	~T~hread list
+ToggleBorder	Toggle ~b~order
+ToggleDump	~H~ex dump
+ToggleLeadingZeroes	~T~oggle leading zeroes
+ToggleStatusBarAnalysisIndicator	Analysis indicator
+ToggleRenderer	Toggle renderer
+ToggleSourceDebug	Use source-~l~evel debugging
+ToggleTraceBasicBlocks	~B~asic block tracing
+ToggleTraceFunctions	~F~unction tracing
+ToggleTraceInstructions	~I~nstruction tracing
+TracingWindow	Tracing ~w~indow
+UnHide	~U~nhide
+UnHideAll	Unhid~e~ all
+UndoReturn	Jump to nex~t~ position
+WatchList	~W~atch list
+WatchView	~W~atch view
+WindowActivate1	Functions
+WindowActivate2	IDA View-A
+WindowActivate3	Hex View-1
+WindowActivate4	Local Types
+WindowActivate5	Imports
+WindowActivate6	Exports
+WindowActivate7	Switch to window #7
+WindowActivate8	Switch to window #8
+WindowActivate9	Switch to window #9
+WindowOpen	~D~isassembly
+WindowsList	Windows ~l~ist
+WindowsListNext	Windows list (next)
+WindowsListPrev	Windows ~l~ist (prev)
+WriteTraceAdd	Add ~w~rite trace
+ZeroStructOffset	~F~orce zero offset field
+NavJumpWindowTop	Jump to the top of the window
+NavJumpWindowBottom	Jump to the bottom of the window
+NavJumpHome	Jump to start of line/window top/start
+NavJumpEnd	Jump to end of line/window bottom/end
+NavJumpListingStart	Jump to listing start
+NavJumpListingEnd	Jump to listing end
+NavLeft	Move one character left
+NavRight	Move one character right
+NavWordLeft	Move one word left
+NavWordRight	Move one word right
+NavLineUp	Move one line up
+NavLineDown	Move one line down
+NavPageUp	Move one page up
+NavPageDown	Move one page down
+OutputNavLeft	Move one character left
+OutputNavRight	Move one character right
+OutputNavWordLeft	Move one word left
+OutputNavWordRight	Move one word right
+OutputNavLineUp	Move one line up
+OutputNavLineDown	Move one line down
+OutputNavPageUp	Move one page up
+OutputNavPageDown	Move one page down
+OutputNavLineBeginning	Move to beginning of line
+OutputNavLineEnd	Move to end of line
+OutputNavBeginning	Move to beginning of text
+OutputNavEnd	Move to end of text
+OutputCopy	~C~opy
+OutputSelectAll	Select All
+OutputFind	~F~ind
+OutputFindNext	Find ~n~ext
+OutputClearContents	C~l~ear
+OutputSaveToFile	Save to file...
+OutputToggleTimestamps	Show timestamps
+OutputToggleAutoScroll	Auto-scroll
+HexColNavLeft	Move previous char, in current column
+HexColNavRight	Move previous char, in current column
+HexColNavHome	Move to beginning of current column
+HexColNavEnd	Move to beginning of current column
+SearchHighlightUp	Search highlight up
+SearchHighlightDown	Search highlight down
+FindRegisterDefinition	Find register definition
+FindRegisterUse	Find register use
+FindRegisterValue	Print register value
+TracingMainTracebufInfo	Show trace info
+TracingOvlTracebufInfo	Show overlay info
+TracingMainTracebufClear	Clear trace
+TracingOvlTracebufClear	Clear overlay
+TracingMainTracebufLoad	Load trace
+TracingOvlTracebufLoad	Load overlay
+TracingMainTracebufSave	Save trace
+TracingShowTraceCallGraph	Show trace call graph
+TracingMainTracebufExportAsText	Export trace to text file
+TracingMainTracebufChangeDesc	Change trace description
+TracingDiffToggle	Subtract overlay
+LocalTypesExportToHeader	Export to header file
+LocalTypesToggleDynSel	Show selection only
+LocalTypesMapToAnother	Map to another type...
+TilCSyntax	C-like format
+ForceTypesAutoCompl	Show completions
+MoveFunctionToFolder	Move to folder...
+DebuggerSuspendThread	~S~uspend thread
+DebuggerResumeThread	~R~esume thread
+LoadModuleDebugSymbols	Load debug ~s~ymbols
+JumpToModuleBase	~J~ump to module base
+AnalyzeModule	~A~nalyze module
+BreakOnModuleAccess	~B~reak on access
+CpuregsJump	~J~ump
+CpuregsJumpNew	Jump in a ne~w~ window
+CpuregsOpenRegDisasm	Open register window
+CpuregsModifyRegister	Modify value...
+CpuregsZeroRegister	Zero value
+CpuregsToggleRegister	Toggle value
+CpuregsIncrementRegister	Increment value
+CpuregsDecrementRegister	Decrement value
+CpuregsCopyRegisterValue	Copy value
+CpuregsToggleShowAnnotations	Show annotations
+OpenDerefOptions	Dereferencing options
+SetupStrings	Setup...
+RebuildStrings	Rebuild...
+ClearStrings	Clear...
+MoveSelectedSegment	Move segment(s)
+BreakOnSegmentAccess	Break on access
+UndoAction	Undo
+RedoAction	Redo
+UndoToggle	Disable undo
+ResetUndoHistory	Reset undo history
+ShowUndoHistory	Undo history
+ActinsCopy	Copy
+ActinsCopyAll	Copy all
+ActinsUnsort	Unsort
+ActinsQuickFilter	Quick filter
+ActinsSearch	Search...
+ActinsSearchAgain	Search again
+AppPreferDemangledNames	Show demangled
+AppPreferNiceNames	Use nice names for addresses
+LuminaApplyMdFromList	Apply selection
+LuminaPullMd	Pull function start
+LuminaPushMd	Push function start
+LuminaRevertMd	Revert function start
+LuminaDeleteMd	Delete function start
+LuminaViewMd	View function start
+LuminaMetadataHistory	Metadata History
+LuminaPullAllMds	Pull all
+LuminaPushAllMds	Push all
+LuminaRestoreMdFromList	Restore selection
+LuminaViewAllMds	View all
+LuminaSecondaryPullAllMds	Pull all
+LuminaSecondaryPushAllMds	Push all
+LuminaSecondaryViewAllMds	View all
+LuminaSecondaryPullMd	Pull function
+LuminaSecondaryPushMd	Push function
+LuminaSecondaryDeleteMd	Delete function metadata
+LuminaSecondaryViewMd	View function
+SnippetsRunCurrent	Run current...
+SnippetsImportCurrent	Import from file...
+SnippetsExportCurrent	Export to file...
+SnippetsCloneCurrent	Clone
+SnippetsChangeTabSize	Change tab size...
+SetupSrcPaths	Source ~p~aths...
+SetupSrcPathsRevert	Revert to defaults
+ShowViewNavigationHistory	Navigation history
+DiffPrevChunk	Previous chunk
+DiffCenterChunk	Center chunk
+DiffNextChunk	Next chunk
+DiffPrevConflict	Previous conflict
+DiffNextConflict	Next conflict
+DiffApplyHandlerNoConflicts	Apply all non-conflicting differences in this step
+DiffApplyHandlerPickLocalOnConflict	Apply all differences in this step (keep local)
+DiffProceedToTheNextStep	Proceed to the next step
+DiffApplyHandlerPickRemoteOnConflict	Apply all differences in this step (pick remote)
+DiffApplyHandlersPickLocalOnConflict	Apply all differences until this step (pick local)
+DiffApplyHandlersPickRemoteOnConflict	Apply all differences until this step (pick remote)
+DiffProceedToThisStep	Proceed to this step
+DiffApplyPickLocal	Keep local change
+DiffApplyPickRemote	Pick remote change
+DiffToggleBasePanel	Toggle 'Common' panel
+DiffToggleDetails	Toggle 'Details'
+ChooserInsert	Insert...
+ChooserDelete	Delete
+ChooserEdit	Edit...
+ChooserRefresh	Refresh
+ChooserCopy	Copy
+ChooserCopyAll	Copy all
+ChooserUnsort	Unsort
+ChooserQuickFilter	Quick filter
+ChooserModifyFilters	Modify filters...
+ChooserResetFilters	Reset filters
+ChooserSearch	Search...
+ChooserSearchAgain	Search again
+ChooserManageColumns	Columns...
+ChooserHideColumn	Hide column
+ChooserToggleTree	Show folders
+DirTreeCreateFolder	Create folder...
+DirTreeQuickFilter	Quick filter
+DirTreeModifyFilters	Modify filters...
+DirTreeResetFilters	Reset filters
+DirTreeUnsort	Unsort
+DirTreeEdit	Edit...
+DirTreeInsert	Insert...
+DirTreeDelete	Delete
+DirTreeHideColumn	Hide column
+DirTreeManageColumns	Columns...
+DirTreeRename	Re~n~ame
+DirTreeSearch	Search...
+DirTreeSearchAgain	Search again
+DirTreeCopy	Copy
+DirTreeCopyAll	Copy all
+DirTreeExpandSelection	Expand selected folders
+DirTreeCollapseSelection	Collapse selected folders
+DirTreeCutSelection	Cut
+DirTreePasteCut	Paste
+DirTreeResetNaturalOrder	Reset natural order
+DirTreeMoveToFolder	Move to folder...
+QuickFilterMatchCase	Match case
+QuickFilterModeRegex	Regular expression
+QuickFilterModeFuzzy	Fuzzy matching
+QuickFilterModeWholeWords	Whole words
+bpts:Add	Add breakpoint
+bpts:Del	Delete breakpoint
+bpts:Enable	Enable breakpoint
+bpts:Disable	Disable breakpoint
+watch:Refresh	~R~efresh
+watch:HexDisplay	Hex display
+watch:JumpTo	Jump to...
+watch:CopyValue	Copy value
+watch:CopyLoc	Copy location
+watch:CopyLine	Copy line
+watch:CopyContent	Copy content
+watch:Add	~A~dd watch
+watch:Del	~D~elete watch
+watch:Edit	~E~dit
+watch:Search	Search...
+watch:SearchAgain	Search Again
+hexview:EditOrApplyChanges	Edit...
+hexview:CancelChanges	Cancel changes
+hexview:JumpSP	Jump to
+hexview:JumpFP	Jump to
+hexview:FollowInDisasm	Follow in disassembly
+hexview:FollowInHexview	Follow in hex dump
+hexview:DataByte	~1~-byte Integer
+hexview:DataWord	~2~-byte Integer
+hexview:DataDword	~4~-byte Integer
+hexview:DataQword	~8~-byte Integer
+hexview:DataFloat	Single ~F~loat (32-bit)
+hexview:DataDouble	~D~ouble Float (64-bit)
+hexview:DataLongDouble	~L~ong Double (80-bit)
+hexview:AddrWithDeref	Addresses with dereferencing
+hexview:AddrWithName	Addresses with names
+hexview:AddrWithText	Addresses with text
+hexview:IntHex	~H~exadecimal
+hexview:IntUnsigned	~U~nsigned
+hexview:IntSigned	~S~igned
+hexview:ColumnsAuto	Auto
+hexview:Columns1	1
+hexview:Columns2	2
+hexview:Columns4	4
+hexview:Columns8	8
+hexview:Columns16	16
+hexview:Columns32	32
+hexview:Columns64	64
+hexview:TextShow	Show
+hexview:TextAddEnc	Add encoding...
+hexview:Save	Save ~t~o file...
+msglist:CopyToCli	Copy to CLI
+cli:Execute	~E~xecute
+cli:Complete	Comp~l~ete
+cli:CompleteBack	Back complete
+cli:Next	~N~ext CLI
+cli:Prev	~P~revious CLI
+cli:DumpHistory	Dump history
+strchoose:TypesQuickFilter	Quick ~f~ilter
+strchoose:OffsetsSelectAll	~S~elect all
+strchoose:OffsetsDeselectAll	~D~eselect all
+strchoose:OffsetsAddMissingFields	~A~dd missing fields
+navigator:FitWholeProgram	Fit whole program
+navigator:Set1Bytes	1 bytes
+navigator:Set4Bytes	4 bytes
+navigator:Set16Bytes	16 bytes
+navigator:Set64Bytes	64 bytes
+navigator:Set256Bytes	256 bytes
+navigator:Set1024Bytes	1024 bytes
+navigator:Set4096Bytes	4096 bytes
+navigator:Set16384Bytes	16384 bytes
+navigator:ZoomIn	Zoom in
+navigator:ZoomOut	Zoom out
+navigator:Refresh	Refresh
+navigator:ToggleLegend	Legend visible
+navigator:ToggleDisplay	Additional display visible
+commdbg:EditExceptions	Edit exceptions
+commdbg:ReloadExceptions	Reload exceptions
+srcdbg:SetTabSize	Set tab size
+my:ida_feeds_popup_action	Open IDA Feeds
+mcp:configure	MCP Configuration

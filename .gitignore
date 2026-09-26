@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.log
+ida_i18n.conf.json
+_dlg_*.txt
+.DS_Store
