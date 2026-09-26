@@ -1,5 +1,10 @@
 # ida_i18n — IDA Pro 界面汉化插件
 
+![IDA Pro](https://img.shields.io/badge/IDA_Pro-9.3-2f6fdb)
+![Platform](https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey)
+![License](https://img.shields.io/badge/license-MIT-green)
+![No patch](https://img.shields.io/badge/IDA%20binary-untouched-brightgreen)
+
 在不修改 IDA 任何二进制、不破坏代码签名、不影响功能的前提下，把 IDA Pro 9.x
 图形界面上能改的英文文本替换成中文。
 
